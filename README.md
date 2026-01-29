@@ -1,30 +1,53 @@
-# IMDb Top 250 Movies Scraper and Visualization System
+# 🎬 IMDB Movie Scraper
 
-## 📌 Project Description
-The IMDb Top 250 Movies Scraper is a Python-based automation project that dynamically scrapes movie data from the IMDb Top 250 movies list. The system uses Selenium WebDriver to handle dynamic web content and extracts movie details such as rank, movie name, and IMDb rating. The scraped data is stored in a CSV file and visualized using a Tkinter-based graphical user interface (GUI).
-
-This project demonstrates web automation, data processing, and GUI development using Python.
+IMDB Movie Scraper is a Python-based web scraping project that extracts movie details from IMDb such as title, rating, year, genre, and IMDb score.  
+The data is stored in CSV format for easy analysis.
 
 ---
 
-## 🎯 Objectives
-- To scrape real-time IMDb Top 250 movie data  
-- To store extracted movie details in CSV format  
-- To visualize movie data using a GUI  
-- To provide search and sort functionality for users  
+## 🛠 Technologies Used
+
+- Programming Language: Python
+- Web Automation: Selenium WebDriver
+- Browser Driver: ChromeDriver (via webdriver-manager)
+- Data Processing: Pandas
+- GUI Framework: Tkinter
+- Data Storage: CSV File
+- Environment: Virtualenv (venv)
+- Operating System: Windows
 
 ---
 
-## 🛠️ Technologies Used
-- **Programming Language:** Python  
-- **Web Automation:** Selenium WebDriver  
-- **Browser Driver:** ChromeDriver (via webdriver-manager)  
-- **Data Processing:** Pandas  
-- **GUI Framework:** Tkinter  
-- **Data Storage:** CSV File  
-- **Environment:** Virtualenv (venv)  
-- **Operating System:** Windows  
+## ✨ Features
+
+- Scrapes movie details from IMDb
+- Automated browsing using Selenium
+- Saves data into CSV format
+- Simple and user-friendly GUI
+- Easy to extend for more filters
 
 ---
 
 ## 📂 Directory Structure
+
+IMDB_Movie_Scraper/
+│
+├── main.py
+├── scraper.py
+├── gui.py
+├── utils/
+│   └── filters.py
+├── csv/
+│   └── movies.csv
+├── requirements.txt
+├── README.md
+└── .gitignore
+
+---
+
+## ▶ How to Run the Project
+
+1. Clone the repository  
+```bash
+git clone https://github.com/megaselvam53-cyber/IMDB_Movie_Scraper.git
+
